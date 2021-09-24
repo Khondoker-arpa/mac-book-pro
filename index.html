@@ -29,23 +29,23 @@
                         <!-- Memory Button -->
                         <div class="mb-5">
                             <h6 class="fw-bolder">Memory</h6>
-                            <button class="btn btn-outline-secondary">8GB unified memory</button>
-                            <button class="btn btn-outline-secondary">16GB unified memory</button>
+                            <button onclick="priceUpdate('8gb')" class="btn btn-outline-secondary">8GB unified memory</button>
+                            <button onclick="priceUpdate('16gb')"  class="btn btn-outline-secondary">16GB unified memory</button>
                         </div>
 
                         <!-- Storage Button -->
                         <div class="mb-5">
                             <h6 class="fw-bolder">Storage</h6>
-                            <button class="btn btn-outline-secondary">256GB SSD Storage</button>
-                            <button class="btn btn-outline-secondary">512GB SSD Storage</button>
-                            <button class="btn btn-outline-secondary">1TB SSD Storage</button>
+                            <button onclick="priceUpdate('256gb')" class="btn btn-outline-secondary">256GB SSD Storage</button>
+                            <button onclick="priceUpdate('512gb')" class="btn btn-outline-secondary">512GB SSD Storage</button>
+                            <button onclick="priceUpdate('1tb')"   class="btn btn-outline-secondary">1TB SSD Storage</button>
                         </div>
 
                         <!-- Delivery Button -->
                         <div class="mb-5">
                             <h6 class="fw-bolder">Choose Your Delivery option</h6>
-                            <button class="btn btn-outline-secondary">Friday, Aug 25 FREE prime Delivery</button>
-                            <button class="btn btn-outline-secondary">Friday, Aug 21 Delivery charge $20</button>
+                            <button onclick="priceUpdate('25')" class="btn btn-outline-secondary">Friday, Aug 25 FREE prime Delivery</button>
+                            <button onclick="priceUpdate('21')" class="btn btn-outline-secondary">Friday, Aug 21 Delivery charge $20</button>
                         </div>
                         
                         <!-- Total Calculation  -->
@@ -82,7 +82,7 @@
                         <h6 class="fw-bold">Add Promo Code</h6>
                         <div class="d-flex">
                             <input type="text" name="" id="coupon_code" class="form-control">
-                            <button class="btn btn-outline-danger">Apply</button>
+                            <button class="btn btn-outline-danger" id="apply-btn">Apply</button>
                         </div>
 
 
